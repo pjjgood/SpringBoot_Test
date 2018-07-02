@@ -39,6 +39,7 @@ public class IndexController {
 	// @PathVariable 获得请求url中的动态参数
 	@RequestMapping(value = "/get/{id}/{name}")
 	public User getUser(@PathVariable int id, @PathVariable String name) {
+		//defddsfdsfsdfdsfdf
 		User user = new User();
 		user.setId(id);
 		user.setName(name);
