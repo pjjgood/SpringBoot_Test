@@ -40,6 +40,8 @@ public class IndexController {
 	@RequestMapping(value = "/get/{id}/{name}")
 	public User getUser(@PathVariable int id, @PathVariable String name) {
 		//defddsfdsfsdfdsfdf
+        //hskajidhkajshd
+        //dfasnjkdhasj
 		User user = new User();
 		user.setId(id);
 		user.setName(name);
